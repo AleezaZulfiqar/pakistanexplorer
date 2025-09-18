@@ -48,7 +48,7 @@ export default function Header() {
             </Link>
             <Link
               href="/about"
-              className={`text-md font-medium transition-colors ${pathname === "/about" ? "text-black" : " hover:text-white"}`}
+              className={`text-md font-medium transition-colors ${pathname === "/about" ? "text-black" : "text-black hover:text-white"}`}
             >
               About
             </Link>

@@ -27,7 +27,7 @@ const destinationPackages = [
     destination: "Islamabad",
     duration: "2 Days / 1 Night",
     price: "PKR 18,000",
-    image: "/Images/isla.jpg",
+    image: "/images/isla.jpg",
     highlights: ["Faisal Mosque", "Pakistan Monument", "Daman-e-Koh"],
   },
   {
@@ -36,7 +36,7 @@ const destinationPackages = [
     destination: "Murree",
     duration: "3 Days / 2 Nights",
     price: "PKR 28,000",
-    image: "/Images/murree.webp",
+    image: "/images/murree.webp",
     highlights: ["Mall Road", "Patriata", "Kashmir Point"],
   },
   {
@@ -45,7 +45,7 @@ const destinationPackages = [
     destination: "Naran Kaghan",
     duration: "5 Days / 4 Nights",
     price: "PKR 50,000",
-    image: "/Images/naran.jpg",
+    image: "/images/naran.jpg",
     highlights: ["Lake Saif ul Malook", "Babusar Top", "Lulusar Lake"],
   },
   {
@@ -54,7 +54,7 @@ const destinationPackages = [
     destination: "Fairy Meadows",
     duration: "6 Days / 5 Nights",
     price: "PKR 60,000",
-    image: "/Images/fairy.webp",
+    image: "/images/fairy.webp",
     highlights: ["Nanga Parbat View", "Reflection Lake", "Base Camp Trek"],
   },
 ];

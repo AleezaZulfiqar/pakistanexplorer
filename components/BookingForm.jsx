@@ -71,7 +71,7 @@ const BookingForm = () => {
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-20 min-h-screen">
       <div className="max-w-3xl mx-auto bg-white p-10 rounded-3xl shadow-2xl">
-        <h2 className="text-4xl font-bold text-center text-[#0B60B0] mb-8">
+        <h2 className="text-4xl font-bold text-center text-[#809c13] mb-8">
           Book Your Travel Experience
         </h2>
 

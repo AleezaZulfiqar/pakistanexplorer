@@ -19,24 +19,24 @@ const router = useRouter();
   return (
     <div className="min-h-screen bg-white pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <button
+        {/* <button
          onClick={() => router.push("/")}
           className="flex items-center text-teal-600 hover:text-teal-700 mb-8"
         >
           <ArrowLeft className="h-5 w-5 mr-2" />
           Back to Home
-        </button>
+        </button> */}
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-l from-blue-300 to-[#809c13] text-black">
+      {/* <section className="relative py-20 bg-gradient-to-l from-blue-300 to-[#809c13] text-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Travel Blog</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
             Discover Pakistan through our stories, tips, and insider knowledge from local experts
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* Featured Article */}
       <section className="py-20">
@@ -45,7 +45,7 @@ const router = useRouter();
             <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">Featured Article</h2>
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
               <img
-                src="/Images/bg.png?height=400&width=800"
+                src="/images/bg.png?height=400&width=800"
                 alt="Featured article"
                 className="w-full h-64 md:h-80 object-cover"
               />
@@ -68,11 +68,11 @@ const router = useRouter();
                   <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">Adventure</span>
                   <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">K2</span>
                 </div>
-                <Link href="/blog/trekking-guide">
+              
                   <button className="bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">
                     Read Full Article
                   </button>
-                </Link>
+               
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@ const router = useRouter();
                 date: "March 15, 2024",
                 readTime: "8 min read",
                 category: "Travel Tips",
-                image: "/Images/nt.jfif?height=200&width=300",
+                image: "/images/gilgit.jpg?height=200&width=300",
                 href: "/blog/best-time-north",
               },
               {
@@ -129,7 +129,7 @@ const router = useRouter();
                 date: "March 10, 2024",
                 readTime: "12 min read",
                 category: "Adventure",
-                image: "/Images/bl.jfif?height=200&width=300",
+                image: "/images/bl.jfif?height=200&width=300",
                 href: "/blog/balochistan-gems",
               },
               {
@@ -139,7 +139,7 @@ const router = useRouter();
                 date: "March 5, 2024",
                 readTime: "6 min read",
                 category: "Food",
-                image: "/Images/food.jpg?height=200&width=300",
+                image: "/images/food.jpg?height=200&width=300",
                 href: "/blog/pakistani-dishes",
               },
             ].map((article, index) => (
@@ -167,9 +167,9 @@ const router = useRouter();
                       <Calendar className="h-4 w-4 mr-1" />
                       <span>{article.date}</span>
                     </div>
-                    <Link href={article.href}>
+                    {/* <Link href={article.href}> */}
                       <button className="text-teal-600 hover:text-teal-700 font-medium text-sm">Read More →</button>
-                    </Link>
+                    {/* </Link> */}
                   </div>
                 </div>
               </article>

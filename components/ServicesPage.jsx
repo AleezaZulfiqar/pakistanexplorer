@@ -9,24 +9,24 @@ const router = useRouter();
   return (
     <div className="min-h-screen bg-white pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <button
+        {/* <button
           onClick={() => router.push("/")}
           className="flex items-center text-teal-600 hover:text-teal-700 mb-8"
         >
           <ArrowLeft className="h-5 w-5 mr-2" />
           Back to Home
-        </button>
+        </button> */}
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-l from-blue-300 to-[#809c13] text-black">
+      {/* <section className="relative py-20 bg-gradient-to-l from-blue-300 to-[#809c13] text-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Our Services</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
             Comprehensive travel solutions designed to make your Pakistan journey unforgettable
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* Detailed Services */}
       <section className="py-20">
@@ -79,7 +79,7 @@ const router = useRouter();
               </div>
               <div>
                 <img
-                  src="/Images/nt.jfif?height=400&width=600"
+                  src="/images/tour.jpg?height=400&width=600"
                   alt="Tour Packages"
                   className="rounded-lg shadow-lg w-full h-80 object-cover"
                 />

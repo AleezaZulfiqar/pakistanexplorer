@@ -19,27 +19,27 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white pt-16">
       {/* Back Button */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <button
+        {/* <button
           onClick={() => router.push("/")}
-          className="flex items-center text-black hover:text-white mb-8"
+          className="flex items-center text-teal-600 hover:text-teal-700 mb-8"
         >
           <ArrowLeft className="h-5 w-5 mr-2" />
           Back to Home
-        </button>
+        </button> */}
       </div>
 
       {/* Your existing content remains the same below... */}
 
 
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-l from-blue-300 to-[#809c13] text-black">
+      {/* <section className="relative py-20 bg-gradient-to-l from-blue-300 to-[#809c13] text-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">About Pakistan Explorer</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
             Your trusted companion in discovering the magnificent beauty, rich culture, and warm hospitality of Pakistan
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* Our Story */}
       <section className="py-20">
@@ -63,7 +63,7 @@ export default function AboutPage() {
             </div>
             <div>
               <img
-                src="/Images/bg.png?height=500&width=600"
+                src="/images/bg.png?height=500&width=600"
                 alt="Pakistan Explorer team"
                 className="rounded-lg shadow-lg w-full h-96 object-cover"
               />
@@ -135,7 +135,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
+      {/* Team Section
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -167,7 +167,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Statistics */}
       <section className="py-20">

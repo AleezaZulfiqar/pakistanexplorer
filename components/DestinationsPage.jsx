@@ -13,17 +13,16 @@ export default function DestinationsPage() {
     <div className="min-h-screen bg-white pt-16">
       {/* Back Button */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <button
+        {/* <button
             onClick={() => router.push("/")}
           className="flex items-center text-teal-600 hover:text-teal-700 mb-8"
         >
           <ArrowLeft className="h-5 w-5 mr-2" />
           Back to Home
-        </button>
+        </button> */}
       </div>
-
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-l from-blue-300 to-[#809c13] text-black">
+      {/* <section className="relative py-20 bg-gradient-to-l from-blue-300 to-[#809c13] text-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Explore Pakistan's Destinations</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
@@ -31,7 +30,7 @@ export default function DestinationsPage() {
             landscapes
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* Featured Destinations */}
       <section className="py-20">
@@ -57,7 +56,7 @@ export default function DestinationsPage() {
                 description:
                   "Pakistan's largest city with beautiful beaches, modern architecture, and diverse culture.",
                 highlights: ["Clifton Beach", "Quaid's Mausoleum", "Port Grand"],
-                image: "/Images/krch.webp?height=250&width=350",
+                image: "/images/krch.webp?height=250&width=350",
               },
               {
                 name: "Islamabad",
@@ -71,14 +70,14 @@ export default function DestinationsPage() {
                 region: "Punjab",
                 description: "Popular hill station with colonial architecture and scenic mountain views.",
                 highlights: ["Mall Road", "Patriata", "Kashmir Point"],
-                image: "/Images/muree.jpg?height=250&width=350",
+                image: "/images/muree.jpg?height=250&width=350",
               },
               {
                 name: "Naran Kaghan",
                 region: "Khyber Pakhtunkhwa",
                 description: "Stunning valley with pristine lakes, waterfalls, and alpine meadows.",
                 highlights: ["Saif ul Malook", "Babusar Pass", "Lalazar"],
-                image: "/Images/naran.jpg?height=250&width=350",
+                image: "/images/naran.jpg?height=250&width=350",
               },
               {
                 name: "Fairy Meadows",

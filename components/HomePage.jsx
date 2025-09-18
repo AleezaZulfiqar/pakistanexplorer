@@ -30,7 +30,7 @@ export default function HomePage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/Images/bg.png')",
+            backgroundImage: "url('/images/bg.png')",
 
             // backgroundBlendMode: "overlay",
           }}
@@ -96,17 +96,17 @@ export default function HomePage() {
               {
                 name: "Hunza Valley",
                 description: "Majestic mountains and ancient culture",
-                image: "/Images/hunza.png?height=300&width=400",
+                image: "/images/hunza.png?height=300&width=400",
               },
               {
                 name: "Skardu",
                 description: "Gateway to K2 and Karakoram Range",
-                image: "/Images/skardu.png?height=300&width=400",
+                image: "/images/skardu.png?height=300&width=400",
               },
               {
                 name: "Swat Valley",
                 description: "Switzerland of Pakistan",
-                image: "/Images/swat.png?height=300&width=400",
+                image: "/images/swat.png?height=300&width=400",
               },
             ].map((destination, index) => (
               <div key={index} className="group cursor-pointer">
@@ -225,12 +225,12 @@ export default function HomePage() {
               {
                 title: "Hidden Gems of Balochistan",
                 date: "March 10, 2024",
-                image: "/Images/blochi.webp?height=200&width=300",
+                image: "/images/blochi.webp?height=200&width=300",
               },
               {
                 title: "Food Guide: Must-Try Pakistani Dishes",
                 date: "March 5, 2024",
-                image: "/Images/food.jpg?height=200&width=300",
+                image: "/images/food.jpg?height=200&width=300",
               },
             ].map((post, index) => (
               <article
