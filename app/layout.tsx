@@ -2,7 +2,11 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Pakistan Explorer'
+  title: 'Trektips',
+  description: 'Discover the best travel and adventure tips with Trektips!',
+  icons: {
+    icon: '/images/logo.png.png',   // 👈 public/logo.png me tumhara logo hona chahiye
+  },
 }
 
 export default function RootLayout({

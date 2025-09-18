@@ -10,57 +10,57 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#809c13]
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white
  backdrop-blur-md shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center cursor-pointer">
-            <Mountain className="h-8 w-8 text-teal-600" />
-            <span className="ml-2 text-xl font-bold text-gray-900">Pakistan Explorer</span>
+            <Mountain className="h-8 w-8 text-[#0d4544]" />
+            <span className="ml-2 text-4xl font-bold text-[#0d4544]">Trektrips</span>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8 text-black hover:text-white">
             <Link
               href="/"
-              className={`text-md font-medium transition-colors ${pathname === "/" ? "text-black" : "text-black hover:text-white"}`}
+              className={`text-lg font-medium transition-colors ${pathname === "/" ? "text-[#0d4544]" : "text-black"}`}
             >
               Home
             </Link>
             <Link
               href="/destinations"
-              className={`text-md font-medium transition-colors ${pathname === "/destinations" ? "text-black" : "text-black hover:text-white"}`}
+              className={`text-lg font-medium transition-colors ${pathname === "/destinations" ? "text-[#0d4544]" : "text-[#0d4544] hover:text-black"}`}
             >
               Destinations
             </Link>
             <Link
               href="/regions"
-              className={`text-md font-medium transition-colors ${pathname === "/regions" ? "text-black" : "text-black hover:text-white"}`}
+              className={`text-lg font-medium transition-colors ${pathname === "/regions" ? "text-[#0d4544]" :  "text-[#0d4544] hover:text-black"}`}
             >
               Regions
             </Link>
             <Link
               href="/services"
-              className={`text-md font-medium transition-colors ${pathname === "/services" ? "text-black" : "text-black hover:text-white"}`}
+              className={`text-lg font-medium transition-colors ${pathname === "/services" ? "text-[#0d4544]" : "text-[#0d4544] hover:text-black"}`}
             >
               Services
             </Link>
             <Link
               href="/about"
-              className={`text-md font-medium transition-colors ${pathname === "/about" ? "text-black" : "text-black hover:text-white"}`}
+              className={`text-lg font-medium transition-colors ${pathname === "/about" ? "text-[#0d4544]" : "text-[#0d4544] hover:text-black"}`}
             >
               About
             </Link>
             <Link
               href="/blog"
-              className={`text-md font-medium transition-colors ${pathname === "/blog" ? "text-black" : "text-black hover:text-white"}`}
+              className={`text-lg font-medium transition-colors ${pathname === "/blog" ? "text-[#0d4544]" : "text-[#0d4544] hover:text-black"}`}
             >
               Blog
             </Link>
             <Link
               href="/Bookingform"
-              className={`text-md font-medium transition-colors ${pathname === "/bookingform" ? "text-black" : "text-black hover:text-white"}`}
+              className={`text-lg font-medium transition-colors ${pathname === "/bookingform" ? "text-[#0d4544]" : "text-[#0d4544] hover:text-black"}`}
             >
               Contact
             </Link>

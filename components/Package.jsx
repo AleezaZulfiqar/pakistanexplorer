@@ -62,7 +62,7 @@ const destinationPackages = [
 const DestinationPackages = () => {
   return (
     <div className="py-16 px-4 sm:px-6 lg:px-20 bg-gray-50">
-      <h2 className="text-4xl font-bold text-center text-[#0B60B0] mb-12">
+      <h2 className="text-4xl font-bold text-center text-[#0d4544] mb-12">
         Destination Packages
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -92,9 +92,9 @@ const DestinationPackages = () => {
                 <strong>Highlights:</strong> {pkg.highlights.join(", ")}
               </p>
               <div className="flex justify-between items-center">
-                <span className="text-[#809c13] font-bold text-lg">{pkg.price}</span>
+                <span className="text-[#0d4544] font-bold text-lg">{pkg.price}</span>
                 <Link href="/Bookingform">
-                <button className="bg-[#809c13] text-white px-4 py-2 rounded-lg text-sm hover:bg-white hover:text-gray-900 border border-[#809c13] transition">
+                <button className="bg-[#0d4544] text-white px-4 py-2 rounded-lg text-sm hover:bg-white hover:text-gray-900 border  transition">
                   Book Now
                 </button>
                 </Link>

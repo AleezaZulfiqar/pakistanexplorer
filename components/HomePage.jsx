@@ -30,16 +30,16 @@ export default function HomePage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/images/bg.png')",
+            backgroundImage: "url('/images/bgr.jpg')",
 
-            // backgroundBlendMode: "overlay",
+            backgroundBlendMode: "overlay",
           }}
         >
           <div className="absolute inset-0 "></div>
         </div>
 
         {/* Floating Elements */}
-        <div className="absolute inset-0 pointer-events-none">
+        {/* <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/4 left-1/4 w-16 h-16 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
             <Plane className="h-8 w-8 text-white" />
           </div>
@@ -52,14 +52,14 @@ export default function HomePage() {
           <div className="absolute bottom-1/4 right-1/4 w-18 h-18 bg-[#809c13] rounded-lg flex items-center justify-center backdrop-blur-sm">
             <Hotel className="h-8 w-8 text-white" />
           </div>
-        </div>
+        </div> */}
 
         <div className="relative z-10 text-center text-black px-4 max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
             Discover the Beauty of
-            <span className="block text-black">Pakistan</span>
+            <span className="block text-whitek">Pakistan</span>
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-black max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl mb-8 text-white max-w-2xl mx-auto">
             From the mighty peaks of K2 to the serene beaches of Karachi, explore Pakistan's diverse landscapes and rich
             culture
           </p>
@@ -75,7 +75,7 @@ export default function HomePage() {
   <span className="font-medium">Chat with us</span>
 </a>
             <Link href="/package">
-  <button className="bg-[#FFE3BB] text-black hover:bg-white hover:text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+  <button className="bg-white text-black hover:bg-white hover:text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
     View Packages
   </button>
 </Link>
@@ -135,7 +135,7 @@ export default function HomePage() {
           <div className="text-center mt-12">
             <button
              onClick={() => router.push("destinations")}
-              className="bg-[#809c13] hover:bg-black text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
+              className="bg-[#0d4544] hover:bg-black text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
             >
               View All Destinations
             </button>
@@ -144,11 +144,11 @@ export default function HomePage() {
       </section>
 
       {/* Regions Section */}
-      <section id="regions" className="py-20 bg-gray-50">
+      <section id="regions" className="py-20 bg-[#0d4544]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Explore by Region</h2>
-            <p className="text-xl text-gray-600">Discover Pakistan's diverse geographical regions</p>
+            <h2 className="text-4xl font-bold text-white mb-4">Explore by Region</h2>
+            <p className="text-xl text-white">Discover Pakistan's diverse geographical regions</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -251,7 +251,7 @@ export default function HomePage() {
           <div className="text-center mt-12">
             <button
               onClick={() => navigateToPage("blog")}
-              className="bg-[#809c13] hover:bg-teal-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
+              className="bg-[#0d4544] hover:bg-teal-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
             >
               View All Articles
             </button>
@@ -260,13 +260,13 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-[#0d4544] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <Mountain className="h-8 w-8 text-teal-400" />
-                <span className="ml-2 text-xl font-bold">Pakistan Explorer</span>
+                <Mountain className="h-8 w-8 text-black" />
+                <span className="ml-2 text-xl font-bold">Trektrips</span>
               </div>
               <p className="text-gray-400 mb-4">
                 Your trusted partner for exploring the beauty and culture of Pakistan.
@@ -345,18 +345,18 @@ export default function HomePage() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2" />
-                  <span>info@pakistanexplorer.com</span>
+                  <span>info@trektrips.com</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-4 w-4 mr-2" />
-                  <span>Islamabad, Pakistan</span>
+                  <span>Lahore, Pakistan</span>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Pakistan Explorer. All rights reserved.</p>
+            <p>&copy; 2025 Trektrips. All rights reserved.</p>
           </div>
         </div>
       </footer>
